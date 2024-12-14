@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Domek.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+             Padding="20,20,20,0"
+            Spacing="25">
+            <Label
+                Text="Domek w gorach"
+                FontSize="40"
+                 />
+            <Image
+                  Source="Obraz.jpg"
+    Aspect="AspectFill"
+    HorizontalOptions="FillAndExpand"
+    
+    
+                 />
+        
+
+
+            <HorizontalStackLayout BackgroundColor="Teal"
+                                  >
+                
+                    <Button
+                    Text="Polub" 
+                    Clicked="OnCounterClicked" 
+                    BackgroundColor="Teal"
+                    TextColor="white"/>
+                <Button
+                    Text="Usun" 
+                      Clicked="Delete" 
+                     BackgroundColor="Teal"
+                     TextColor="white"/>
+                <Button
+                    Text="Zapisz" 
+                    
+                     BackgroundColor="Teal"
+                     TextColor="white"/>
+                   
+            </HorizontalStackLayout>
+            <Label
+                HorizontalTextAlignment="End"
+                x:Name="polubienia"
+           Text="1 Polubienia"
+             />
+            <BoxView
+                HeightRequest="1"
+                Color="Gray"
+                HorizontalOptions="FillAndExpand"
+                 />
+            <Label
+               Text="Opis"
+             />
+            <Label
+    Text="fedfsefsefsef"
+  />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>
